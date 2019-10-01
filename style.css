@@ -1,0 +1,104 @@
+body{
+}
+header{
+    background-image: url("img/background.jpg");
+    text-align: center;
+    width: 100%;
+}
+footer,nav{
+    background-color: darkblue;
+    color: aliceblue;
+}
+footer{
+    text-align: end;
+}
+footer > p{
+    margin-right: 0.25rem;
+}
+h2{
+
+}
+p{
+    margin: 0;
+}
+h1{
+    padding: 20px;
+    margin: 0;
+}
+nav > h3{
+    margin: 0;
+}
+
+/*Mise en forme du corp (partie haute) du site*/
+
+div > img{
+    width: 20%;
+    height: 20%;
+}
+form{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 1px;
+    padding: 10px;
+}
+.inline{
+    display: inline-block;
+}
+section.haut > img.inline{
+    margin-left: 1em;
+    margin-top: 2em;
+}
+div.inline{
+    width:300px;
+    vertical-align: top;
+    margin: 1em;
+}
+nav > h3{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.haut{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 2%;
+}
+textarea{
+    width:100%;
+}
+input{
+    width: 100%;
+}
+select{
+    width: 100%;
+}
+div > h3{
+    text-align: center;
+}
+/*Mise en forme du corp (partie basse) du site*/
+div > p{
+    width: 70%;
+    vertical-align: top;
+}
+.bas{
+    background-color: #dedede;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.bas > div,.bas > h2{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.bas > div > img{
+    background-color: #7885a5;
+}
+
+@media(max-width: 760px){
+    nav > h3{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    section{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
