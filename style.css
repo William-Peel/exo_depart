@@ -6,7 +6,7 @@ header{
     width: 100%;
 }
 footer,nav{
-    background-color: darkblue;
+    background-color: #061339;
     color: aliceblue;
 }
 footer{
@@ -15,15 +15,16 @@ footer{
 footer > p{
     margin-right: 0.25rem;
 }
-h2{
-
+h2,div > h3{
+    color: #2F4073;
 }
 p{
     margin: 0;
 }
 h1{
-    padding: 20px;
+    padding: 40px;
     margin: 0;
+    color: white;
 }
 nav > h3{
     margin: 0;
@@ -36,7 +37,6 @@ div > img{
     height: 20%;
 }
 form{
-    text-align: center;
     border: 1px solid black;
     border-radius: 1px;
     padding: 10px;
@@ -58,10 +58,20 @@ nav > h3{
     margin-right: 15%;
 }
 .haut{
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-bottom: 2%;
+    padding-bottom: 2%;
+    background-color: #F1F1F1;
+    padding-left: 15%;
+    padding-right: 15%;
 }
+.submit{
+    margin-top: 5px;
+    border-radius: 0.25rem;
+    background-color: #5CB85C;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+}
+
 textarea{
     width:100%;
 }
@@ -70,6 +80,9 @@ input{
 }
 select{
     width: 100%;
+    background-color: white;
+    border: none;
+    padding: 0.2rem;
 }
 div > h3{
     text-align: center;
@@ -79,6 +92,7 @@ div > p{
     width: 70%;
     vertical-align: top;
 }
+
 .bas{
     background-color: #dedede;
     padding-top: 10px;

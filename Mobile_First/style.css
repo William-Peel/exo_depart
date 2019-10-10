@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+footer{
+    text-align: right;
+}
+header, footer{
+    color: white;
+}
+form{
+    border: 1px solid black;
+    border-radius: 1px;
+    padding: 10px;
+}
+textarea{
+    padding:1px;
+    width: 100%;
+}
+#img-grey{
+    width: 300px;
+    height: auto;
+}
+.inner{
+    width: 100%;
+}
+.back{
+    background-color: transparent;
+}
+.pink-img{
+    width: 300px;
+    height: 300px;
+    vertical-align: bottom;
+}
+.pink-img > img{
+    width: 100%;
+}
+.blue{
+    background-color: darkblue;
+}
+p{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    text-align: center;
+}
+header.toto{
+    background-image: url("img/background.jpg");
+}
+section.titi{
+    background-color: #F1F1F1;
+}
+section.toto{
+    background-color: #dedede;
+}
+.pink-img{
+    background-color: #7885a5;
+}
+@media (min-width: 768px){
+    .inner {
+        width: 768px;
+        margin: 0 auto;
+    }
+    .pink{
+        display: inline-block;
+    }
+    .grey{
+        display: inline-block;
+    }
+    .pink-txt{
+        width: 75%;
+    }
+    .grey-form{
+        width: 35%;
+    }
+    .grey-img{
+        margin-left: 20px;
+        vertical-align: top;
+    }
+    #img-grey{
+        width: 450px;
+        height: auto;
+    }
+}
+@media (min-width: 992px){
+    .inner{
+        width: 992px;
+    }
+}
+@media (min-width: 1200px){
+    .inner{
+        width: 1200px;
+    }
+}
